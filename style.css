@@ -5,45 +5,54 @@
 body {
     margin: 0;
     padding: 0;
-    background: #080808;
+    background: #050505;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
 header {
-    padding: 45px 15px;
+    padding: 55px 15px;
+    background: linear-gradient(180deg, #101820, #050505);
     border-bottom: 2px solid #00d9ff;
 }
 
 h1 {
-    font-size: 35px;
-    letter-spacing: 4px;
+    font-size: 38px;
+    letter-spacing: 5px;
 }
 
 h1 span {
     color: #00d9ff;
 }
 
-p {
+header p {
     color: #aaa;
-    line-height: 1.6;
+    letter-spacing: 2px;
 }
 
 main {
-    padding: 45px 15px;
+    padding: 40px 15px;
 }
 
 h2 {
     color: #00d9ff;
+    font-size: 27px;
+}
+
+main p {
+    color: #aaa;
+    line-height: 1.7;
 }
 
 .form-container {
     max-width: 700px;
     margin: 35px auto;
-    padding: 20px;
+    padding: 12px;
     border: 1px solid #00d9ff;
-    border-radius: 20px;
+    border-radius: 18px;
+    box-shadow: 0 0 20px #00d9ff33;
+    background: white;
 }
 
 iframe {
@@ -51,5 +60,4 @@ iframe {
     min-height: 1100px;
     border: none;
     border-radius: 12px;
-    background: white;
 }
